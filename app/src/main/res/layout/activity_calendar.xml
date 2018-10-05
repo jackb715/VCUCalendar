@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalendarActivity">
+
+    <TextView
+        android:id="@+id/sundays"
+        android:layout_width="107dp"
+        android:layout_height="32dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="Sunday"
+        app:layout_constraintRight_toLeftOf="@+id/mondays"
+        app:layout_constraintTop_toTopOf="@+id/mondays" />
+
+    <TextView
+        android:id="@+id/mondays"
+        android:layout_width="107dp"
+        android:layout_height="32dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="Monday"
+        app:layout_constraintRight_toLeftOf="@+id/tuesdays"
+        app:layout_constraintTop_toTopOf="@+id/tuesdays" />
+
+    <TextView
+        android:id="@+id/tuesdays"
+        android:layout_width="107dp"
+        android:layout_height="32dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="Tuesday"
+        app:layout_constraintRight_toLeftOf="@+id/wednesdays"
+        app:layout_constraintTop_toTopOf="@+id/wednesdays" />
+
+    <TextView
+        android:id="@+id/wednesdays"
+        android:layout_width="107dp"
+        android:layout_height="32dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="Wednesday"
+        app:layout_constraintBottom_toTopOf="@id/firstWednesday"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/thursdays"
+        android:layout_width="107dp"
+        android:layout_height="32dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="Thursday"
+        app:layout_constraintLeft_toRightOf="@+id/wednesdays"
+        app:layout_constraintTop_toTopOf="@+id/wednesdays" />
+
+    <TextView
+        android:id="@+id/fridays"
+        android:layout_width="107dp"
+        android:layout_height="32dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="Friday"
+        app:layout_constraintLeft_toRightOf="@+id/thursdays"
+        app:layout_constraintTop_toTopOf="@+id/thursdays" />
+
+    <TextView
+        android:id="@+id/saturdays"
+        android:layout_width="107dp"
+        android:layout_height="32dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="Saturday"
+        app:layout_constraintLeft_toRightOf="@+id/fridays"
+        app:layout_constraintTop_toTopOf="@id/fridays" />
+
+    <TextView
+        android:id="@+id/firstSunday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@+id/firstMonday"
+        app:layout_constraintTop_toTopOf="@+id/firstMonday" />
+
+    <TextView
+        android:id="@+id/secondSunday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@+id/secondMonday"
+        app:layout_constraintTop_toTopOf="@+id/secondMonday" />
+
+    <TextView
+        android:id="@+id/thirdSunday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@+id/thirdMonday"
+        app:layout_constraintTop_toTopOf="@+id/thirdMonday" />
+
+    <TextView
+        android:id="@+id/fourthSunday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@+id/fourthMonday"
+        app:layout_constraintTop_toTopOf="@+id/fourthMonday" />
+
+    <TextView
+        android:id="@+id/fifthSunday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@+id/fifthMonday"
+        app:layout_constraintTop_toTopOf="@+id/fifthMonday" />
+
+    <TextView
+        android:id="@+id/firstMonday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@+id/firstTuesday"
+        app:layout_constraintTop_toTopOf="@+id/firstTuesday" />
+
+    <TextView
+        android:id="@+id/secondMonday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@+id/secondTuesday"
+        app:layout_constraintTop_toTopOf="@+id/secondTuesday" />
+
+    <TextView
+        android:id="@+id/thirdMonday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@+id/thirdTuesday"
+        app:layout_constraintTop_toTopOf="@+id/thirdTuesday" />
+
+    <TextView
+        android:id="@+id/fourthMonday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@+id/fourthTuesday"
+        app:layout_constraintTop_toTopOf="@+id/fourthTuesday"
+
+        />
+
+    <TextView
+        android:id="@+id/fifthMonday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@+id/fifthTuesday"
+        app:layout_constraintTop_toTopOf="@+id/fifthTuesday" />
+
+    <TextView
+        android:id="@+id/firstTuesday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@id/firstWednesday"
+        app:layout_constraintTop_toTopOf="@id/firstWednesday"
+
+        />
+
+    <TextView
+        android:id="@+id/secondTuesday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@id/secondWednesday"
+        app:layout_constraintTop_toTopOf="@id/secondWednesday"
+
+        />
+
+    <TextView
+        android:id="@+id/thirdTuesday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@id/thirdWednesday"
+        app:layout_constraintTop_toTopOf="@id/thirdWednesday" />
+
+    <TextView
+        android:id="@+id/fourthTuesday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@id/fourthWednesday"
+        app:layout_constraintTop_toTopOf="@id/fourthWednesday" />
+
+    <TextView
+        android:id="@+id/fifthTuesday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@+id/fifthWednesday"
+        app:layout_constraintTop_toTopOf="@id/fifthWednesday" />
+
+    <TextView
+        android:id="@+id/firstWednesday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintBottom_toTopOf="@id/secondWednesday"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/secondWednesday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintBottom_toTopof="@+id/thirdWednesday"
+        app:layout_constraintRight_toRightOf="@+id/thirdWednesday"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:id="@+id/thirdWednesday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fourthWednesday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdWednesday" />
+
+    <TextView
+        android:id="@+id/fifthWednesday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fourthWednesday" />
+
+    <TextView
+        android:id="@+id/firstThursday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/firstWednesday"
+        app:layout_constraintTop_toTopOf="@+id/firstWednesday" />
+
+    <TextView
+        android:id="@+id/secondThursday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/secondWednesday"
+        app:layout_constraintTop_toTopOf="@+id/secondWednesday" />
+
+    <TextView
+        android:id="@+id/thirdThursday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/thirdWednesday"
+        app:layout_constraintTop_toTopOf="@+id/thirdWednesday" />
+
+    <TextView
+        android:id="@+id/fourthThursday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/fourthWednesday"
+        app:layout_constraintTop_toTopOf="@+id/fourthWednesday" />
+
+    <TextView
+        android:id="@+id/fifthThursday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/fifthWednesday"
+        app:layout_constraintTop_toTopOf="@+id/fifthWednesday" />
+
+    <TextView
+        android:id="@+id/firstFriday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/firstThursday"
+        app:layout_constraintTop_toTopOf="@+id/firstThursday" />
+
+    <TextView
+        android:id="@+id/secondFriday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/secondThursday"
+        app:layout_constraintTop_toTopOf="@+id/secondThursday" />
+
+    <TextView
+        android:id="@+id/thirdFriday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/thirdThursday"
+        app:layout_constraintTop_toTopOf="@+id/thirdThursday" />
+
+    <TextView
+        android:id="@+id/fourthFriday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/fourthThursday"
+        app:layout_constraintTop_toTopOf="@+id/fourthThursday" />
+
+    <TextView
+        android:id="@+id/fifthFriday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/fifthThursday"
+        app:layout_constraintTop_toTopOf="@+id/fifthThursday" />
+
+    <TextView
+        android:id="@+id/firstSaturday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/firstFriday"
+        app:layout_constraintTop_toTopOf="@+id/firstFriday" />
+
+    <TextView
+        android:id="@+id/secondSaturday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/secondFriday"
+        app:layout_constraintTop_toTopOf="@+id/secondFriday" />
+
+    <TextView
+        android:id="@+id/thirdSaturday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/thirdFriday"
+        app:layout_constraintTop_toTopOf="@+id/thirdFriday" />
+
+    <TextView
+        android:id="@+id/fourthSaturday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/fourthFriday"
+        app:layout_constraintTop_toTopOf="@+id/fourthFriday" />
+
+    <TextView
+        android:id="@+id/fifthSaturday"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:text="1"
+        app:layout_constraintLeft_toRightOf="@+id/fifthFriday"
+        app:layout_constraintTop_toTopOf="@+id/fifthFriday" />
+
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Month: "
+        app:layout_constraintRight_toLeftOf="@+id/createEvent" />
+    app:layout
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/createEvent"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Create Event"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
